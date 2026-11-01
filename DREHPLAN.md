@@ -1,5 +1,7 @@
 # Drehplan Red One
 
+(Stand 01.11.: gedreht. Haare werden nicht gefilmt, Marflux will das nicht. Clips 8–10 und Video 3 entfallen.)
+
 (Keine Tabellen: Marflux liest auf dem Handy, Tabellen sind dort schlecht lesbar.)
 
 ## Vorbereitung
@@ -33,17 +35,6 @@ Nur drei Dosen im Bild. Mit dem Finger jede einmal antippen.
 
 **Clip 7: Alle zusammenschieben** (ca. 6 Sekunden)
 Alle neun Dosen verstreut hinlegen. Von oben filmen. Mit beiden Händen langsam zusammenschieben.
-
-## Teil 2: Im Bad (ca. 10 Minuten, kein Gesicht im Bild)
-
-**Clip 8: Haare vorher** (ca. 4 Sekunden)
-Haare zerzaust. Handy über den Kopf halten oder von hinten filmen (Spiegel). Gesicht nicht im Bild.
-
-**Clip 9: Stylen** (ca. 15 Sekunden, darf auch länger)
-Gel in die Haare und stylen. Nur Hand und Haare im Bild. Ich spule das später schneller.
-
-**Clip 10: Haare nachher** (ca. 5 Sekunden)
-Fertige Haare. Handy langsam einmal um den Kopf bewegen. Gesicht nicht im Bild.
 
 Fertig. Alle Clips hochladen, Reihenfolge und Namen egal.
 
