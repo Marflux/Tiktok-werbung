@@ -1,150 +1,235 @@
 {
- "fingerprint": "{\"full\":\"Das rote Gel vom Barber… kennst du, oder? Hält richtig fest, glänzt, und geht mit Wasser einfach wieder raus. Gibt’s im Dreierpack… oder gleich im Sechserpack. Link ist unten.\",\"VOICE\":{\"id\":\"K5ZVtkkBnuPY6YqXs70E\",\"model\":\"eleven_v4\",\"tempo\":1.1,\"seed\":5,\"settings\":{\"stability\":0.3},\"post\":\"highpass=f=70\"}}",
+ "fingerprint": "{\"full\":\"[excited] Das rote Gel vom Barber… riecht nach Erdbeere! Ehrlich… Parfüm brauchst du fast nicht mehr. Hält bombenfest, glänzt, und geht mit Wasser einfach raus. Normal zahlst du zehn Euro pro Dose. Gerade? Dreierpack unter zehn Euro… Sechserpack unter zwanzig! Krasses Schnäppchen. Schnell zuschlagen, Link ist unten.\",\"VOICE\":{\"id\":\"K5ZVtkkBnuPY6YqXs70E\",\"model\":\"eleven_v4\",\"tempo\":1.1,\"seed\":5,\"settings\":{\"stability\":0.3},\"post\":\"highpass=f=70\"}}",
  "words": [
   {
    "w": "Das",
-   "start": 0,
-   "end": 0.145
+   "start": 0.036,
+   "end": 0.067
   },
   {
    "w": "rote",
-   "start": 0.218,
-   "end": 0.436
+   "start": 0.14,
+   "end": 0.431
   },
   {
    "w": "Gel",
-   "start": 0.509,
-   "end": 0.655
+   "start": 0.504,
+   "end": 0.649
   },
   {
    "w": "vom",
-   "start": 0.691,
-   "end": 0.8
+   "start": 0.722,
+   "end": 0.867
   },
   {
    "w": "Barber…",
-   "start": 0.873,
-   "end": 1.673
+   "start": 0.94,
+   "end": 1.485
   },
   {
-   "w": "kennst",
-   "start": 1.709,
-   "end": 1.964
+   "w": "riecht",
+   "start": 1.667,
+   "end": 1.849
   },
   {
-   "w": "du,",
-   "start": 2,
-   "end": 2.109
+   "w": "nach",
+   "start": 1.885,
+   "end": 2.104
   },
   {
-   "w": "oder?",
-   "start": 2.218,
-   "end": 2.4
+   "w": "Erdbeere!",
+   "start": 2.176,
+   "end": 2.94
+  },
+  {
+   "w": "Ehrlich…",
+   "start": 3.122,
+   "end": 3.776
+  },
+  {
+   "w": "Parfüm",
+   "start": 3.885,
+   "end": 4.14
+  },
+  {
+   "w": "brauchst",
+   "start": 4.213,
+   "end": 4.431
+  },
+  {
+   "w": "du",
+   "start": 4.504,
+   "end": 4.576
+  },
+  {
+   "w": "fast",
+   "start": 4.685,
+   "end": 4.795
+  },
+  {
+   "w": "nicht",
+   "start": 4.843,
+   "end": 4.94
+  },
+  {
+   "w": "mehr.",
+   "start": 4.976,
+   "end": 5.449
   },
   {
    "w": "Hält",
-   "start": 2.764,
-   "end": 2.982
+   "start": 5.546,
+   "end": 5.74
   },
   {
-   "w": "richtig",
-   "start": 3.055,
-   "end": 3.418
-  },
-  {
-   "w": "fest,",
-   "start": 3.491,
-   "end": 4.073
+   "w": "bombenfest,",
+   "start": 5.849,
+   "end": 6.613
   },
   {
    "w": "glänzt,",
-   "start": 4.145,
-   "end": 4.727
+   "start": 6.685,
+   "end": 7.122
   },
   {
    "w": "und",
-   "start": 4.836,
-   "end": 4.945
+   "start": 7.195,
+   "end": 7.267
   },
   {
    "w": "geht",
-   "start": 5.018,
-   "end": 5.164
+   "start": 7.304,
+   "end": 7.413
   },
   {
    "w": "mit",
-   "start": 5.236,
-   "end": 5.309
+   "start": 7.485,
+   "end": 7.558
   },
   {
    "w": "Wasser",
-   "start": 5.345,
-   "end": 5.6
+   "start": 7.595,
+   "end": 7.849
   },
   {
    "w": "einfach",
-   "start": 5.673,
-   "end": 5.964
-  },
-  {
-   "w": "wieder",
-   "start": 6,
-   "end": 6.182
+   "start": 7.885,
+   "end": 8.213
   },
   {
    "w": "raus.",
-   "start": 6.255,
-   "end": 6.545
+   "start": 8.249,
+   "end": 8.867
   },
   {
-   "w": "Gibt’s",
-   "start": 6.909,
-   "end": 7.091
+   "w": "Normal",
+   "start": 9.049,
+   "end": 9.231
   },
   {
-   "w": "im",
-   "start": 7.127,
-   "end": 7.2
+   "w": "zahlst",
+   "start": 9.304,
+   "end": 9.449
   },
   {
-   "w": "Dreierpack…",
-   "start": 7.236,
-   "end": 8.073
+   "w": "du",
+   "start": 9.522,
+   "end": 9.667
   },
   {
-   "w": "oder",
-   "start": 8.145,
-   "end": 8.364
+   "w": "zehn",
+   "start": 9.74,
+   "end": 9.885
   },
   {
-   "w": "gleich",
-   "start": 8.436,
-   "end": 8.655
+   "w": "Euro",
+   "start": 9.958,
+   "end": 10.176
   },
   {
-   "w": "im",
-   "start": 8.691,
-   "end": 8.727
+   "w": "pro",
+   "start": 10.249,
+   "end": 10.322
   },
   {
-   "w": "Sechserpack.",
-   "start": 8.8,
-   "end": 9.455
+   "w": "Dose.",
+   "start": 10.395,
+   "end": 10.976
+  },
+  {
+   "w": "Gerade?",
+   "start": 11.085,
+   "end": 11.704
+  },
+  {
+   "w": "Dreierpack",
+   "start": 11.74,
+   "end": 12.285
+  },
+  {
+   "w": "unter",
+   "start": 12.358,
+   "end": 12.576
+  },
+  {
+   "w": "zehn",
+   "start": 12.649,
+   "end": 12.795
+  },
+  {
+   "w": "Euro…",
+   "start": 12.867,
+   "end": 13.449
+  },
+  {
+   "w": "Sechserpack",
+   "start": 13.522,
+   "end": 14.031
+  },
+  {
+   "w": "unter",
+   "start": 14.14,
+   "end": 14.249
+  },
+  {
+   "w": "zwanzig!",
+   "start": 14.322,
+   "end": 15.122
+  },
+  {
+   "w": "Krasses",
+   "start": 15.231,
+   "end": 15.558
+  },
+  {
+   "w": "Schnäppchen.",
+   "start": 15.595,
+   "end": 16.213
+  },
+  {
+   "w": "Schnell",
+   "start": 16.249,
+   "end": 16.431
+  },
+  {
+   "w": "zuschlagen,",
+   "start": 16.504,
+   "end": 17.085
   },
   {
    "w": "Link",
-   "start": 9.6,
-   "end": 9.818
+   "start": 17.195,
+   "end": 17.304
   },
   {
    "w": "ist",
-   "start": 9.891,
-   "end": 9.964
+   "start": 17.376,
+   "end": 17.449
   },
   {
    "w": "unten.",
-   "start": 10.036,
-   "end": 10.545
+   "start": 17.522,
+   "end": 18.031
   }
  ]
 }

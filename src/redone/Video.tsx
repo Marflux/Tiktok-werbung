@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Easing, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
-import {LINES, TOP, HIGHLIGHT, TAIL} from './script.mjs';
+import {LINES, TOP, HIGHLIGHT, TAIL, END} from './script.mjs';
 import data from './voice.json';
 import {Caption, SANS, type Word} from '../kit';
 
@@ -11,7 +11,7 @@ const lineWords: (typeof words)[] = [];
 {
   let k = 0;
   for (const l of LINES) {
-    const n = l.say.trim().split(/\s+/).length;
+    const n = l.say.replace(/\[[^\]]*\]/g, ' ').trim().split(/\s+/).length;
     lineWords.push(words.slice(k, k + n));
     k += n;
   }
@@ -33,6 +33,11 @@ for (const ws of lineWords) {
       cur = [];
     }
     cur.push(w);
+    // Nach einem Satzende neue Pille.
+    if (/[.?!…]$/.test(w.w)) {
+      chunks.push(cur);
+      cur = [];
+    }
   }
   if (cur.length) chunks.push(cur);
 }
@@ -80,6 +85,54 @@ const TopText: React.FC = () => {
   );
 };
 
+/** Sticker in der Bildmitte oben (Preis, Geruch). strike = wird rot durchgestrichen. */
+const Badge: React.FC<{text: string; strike?: boolean; len: number}> = ({text, strike, len}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const a = spring({frame: f, fps, config: {damping: 10, stiffness: 260}});
+  const out = interpolate(f, [len - 4, len], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'});
+  const line = interpolate(f, [12, 20], [0, 1], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic)});
+  return (
+    <AbsoluteFill style={{alignItems: 'center'}}>
+      <div
+        style={{
+          position: 'absolute',
+          top: 470,
+          background: strike ? '#111' : '#FFD23F',
+          color: strike ? '#fff' : '#111',
+          fontFamily: SANS,
+          fontWeight: 800,
+          fontSize: 96,
+          letterSpacing: -1.5,
+          padding: '16px 46px',
+          borderRadius: 28,
+          boxShadow: '0 18px 46px rgba(0,0,0,0.45)',
+          transform: `scale(${a * out}) rotate(${strike ? 3 : -3}deg)`,
+          whiteSpace: 'nowrap',
+        }}
+      >
+        {text}
+        {strike && (
+          <div
+            style={{
+              position: 'absolute',
+              left: 30,
+              right: 30,
+              top: '50%',
+              height: 12,
+              marginTop: -6,
+              background: '#FE2C55',
+              borderRadius: 6,
+              transform: `scaleX(${line}) rotate(-4deg)`,
+              transformOrigin: 'left center',
+            }}
+          />
+        )}
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 /** Endkarte: „3er oder 6er?“ + Hinweis auf den Link. */
 const EndCard: React.FC = () => {
   const f = useCurrentFrame();
@@ -103,7 +156,7 @@ const EndCard: React.FC = () => {
           transform: `scale(${a}) rotate(-2deg)`,
         }}
       >
-        3er oder <span style={{background: '#FFD23F', borderRadius: 14, padding: '0 10px'}}>6er</span>?
+        {END.big}
       </div>
       <div
         style={{
@@ -118,7 +171,7 @@ const EndCard: React.FC = () => {
           transform: `translateY(${bob}px) scale(${b})`,
         }}
       >
-        Link unten 👇
+        {END.small}
       </div>
     </AbsoluteFill>
   );
@@ -137,6 +190,16 @@ export const RedOne: React.FC = () => (
     })}
     {/* leichte Abdunklung oben und unten, damit Texte immer lesbar sind */}
     <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0) 26%, rgba(0,0,0,0) 70%, rgba(0,0,0,0.25) 100%)'}} />
+    {LINES.map((l, i) => {
+      if (!l.badge) return null;
+      const from = cuts[i] + 2;
+      const to = i + 1 < LINES.length ? cuts[i + 1] : endCard;
+      return (
+        <Sequence key={'b' + i} from={from} durationInFrames={to - from}>
+          <Badge text={l.badge.text} strike={l.badge.strike} len={to - from} />
+        </Sequence>
+      );
+    })}
     <TopText />
     {chunks.map((ws, i) => {
       const from = Math.round(ws[0].start * FPS);
@@ -153,6 +216,13 @@ export const RedOne: React.FC = () => (
         <Audio src={staticFile(i % 2 ? 'sfx/whoosh.wav' : 'sfx/whoosh2.wav')} volume={0.22} />
       </Sequence>
     ))}
+    {LINES.map((l, i) =>
+      l.badge ? (
+        <Sequence key={'s' + i} from={cuts[i] + 2}>
+          <Audio src={staticFile('sfx/pop.wav')} volume={0.35} />
+        </Sequence>
+      ) : null,
+    )}
     <Sequence from={endCard}>
       <Audio src={staticFile('sfx/pop2.wav')} volume={0.5} />
     </Sequence>

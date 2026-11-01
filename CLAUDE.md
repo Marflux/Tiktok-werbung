@@ -73,9 +73,17 @@ npx remotion studio
 
 ## Videos
 
-- `redone` → `renders/RedOne_Barber.mp4` (12,6 s): „Das rote Gel vom Barber… kennst du, oder? Hält richtig fest, glänzt,
-  und geht mit Wasser einfach wieder raus. Gibt's im Dreierpack… oder gleich im Sechserpack. Link ist unten.“
-  Endkarte „3er oder 6er?“ + „Link unten 👇“. Stimme Simon, eleven_v4, Tempo 1.1.
+- `redone` → `renders/RedOne_Barber.mp4` (20 s), Verkaufs-Version nach Marflux' Wunsch: Geruch (Erdbeere, „Parfüm brauchst
+  du fast nicht mehr“), Halt, Glanz, Wasser, Preis („normal 10 € pro Dose“ durchgestrichen, „3er unter 10 €“, „6er unter 20 €“
+  als gelbe Sticker), „Krasses Schnäppchen. Schnell zuschlagen, Link ist unten.“ Endkarte „6er unter 20 €“ + „Link unten 👇“.
+  Erste Fassung (12,6 s, ohne Preise/Geruch) ist durch diese ersetzt.
+
+## Produkt-Infos von Marflux (01.11.)
+
+- 6er-Pack gerade **unter 20 €**, 3er-Pack **unter 10 €** (mit Coupons). Normal ca. **10 € pro Dose**.
+- Riecht nach **Erdbeere**. Guter Halt, guter Look.
+- Marflux will typische Verkaufssprache („krasses Schnäppchen“, „schnell zuschlagen“). Übertreibungen leicht abschwächen
+  („fast kein Parfüm mehr“), Preise als „gerade unter …“ (Coupons ändern sich), Statt-Preis muss echt sein.
 
 ## Dreh-Plan
 
