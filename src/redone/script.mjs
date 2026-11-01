@@ -23,4 +23,5 @@ export const HIGHLIGHT = ['Gel', 'Barber', 'Erdbeere', 'Parfüm', 'bombenfest', 
 // Endkarte.
 export const END = {big: '6er unter 20 €', small: 'Link unten 👇'};
 // Sekunden, die das letzte Bild nach der Stimme stehen bleibt (Endkarte).
+export const VOICE_FILE = 'voice/redone.mp3';
 export const TAIL = 2.0;

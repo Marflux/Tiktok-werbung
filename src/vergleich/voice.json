@@ -1,0 +1,285 @@
+{
+ "fingerprint": "{\"full\":\"[excited] Kauf bloß nicht den Dreierpack. Drei Dosen: fünfzehn Euro. Sechs Dosen: unter zwanzig. Heißt: für fünf Euro mehr… doppelt so viel! Pro Dose zahlst du nur gut drei Euro. Damit hast du Vorrat für Monate. Riecht nach Erdbeere, hält bombenfest, und geht mit Wasser einfach raus. Also: Sechserpack. Link ist unten, solange der Preis noch gilt.\",\"VOICE\":{\"id\":\"K5ZVtkkBnuPY6YqXs70E\",\"model\":\"eleven_v4\",\"tempo\":1.1,\"seed\":5,\"settings\":{\"stability\":0.3},\"post\":\"highpass=f=70\"}}",
+ "words": [
+  {
+   "w": "Kauf",
+   "start": 0.036,
+   "end": 0.265
+  },
+  {
+   "w": "bloß",
+   "start": 0.337,
+   "end": 0.701
+  },
+  {
+   "w": "nicht",
+   "start": 0.774,
+   "end": 0.919
+  },
+  {
+   "w": "den",
+   "start": 0.992,
+   "end": 1.065
+  },
+  {
+   "w": "Dreierpack.",
+   "start": 1.101,
+   "end": 1.828
+  },
+  {
+   "w": "Drei",
+   "start": 2.01,
+   "end": 2.228
+  },
+  {
+   "w": "Dosen:",
+   "start": 2.265,
+   "end": 2.737
+  },
+  {
+   "w": "fünfzehn",
+   "start": 2.81,
+   "end": 3.246
+  },
+  {
+   "w": "Euro.",
+   "start": 3.319,
+   "end": 3.901
+  },
+  {
+   "w": "Sechs",
+   "start": 3.937,
+   "end": 4.119
+  },
+  {
+   "w": "Dosen:",
+   "start": 4.192,
+   "end": 4.701
+  },
+  {
+   "w": "unter",
+   "start": 4.846,
+   "end": 4.992
+  },
+  {
+   "w": "zwanzig.",
+   "start": 5.065,
+   "end": 5.865
+  },
+  {
+   "w": "Heißt:",
+   "start": 5.901,
+   "end": 6.374
+  },
+  {
+   "w": "für",
+   "start": 6.483,
+   "end": 6.592
+  },
+  {
+   "w": "fünf",
+   "start": 6.628,
+   "end": 6.81
+  },
+  {
+   "w": "Euro",
+   "start": 6.883,
+   "end": 7.101
+  },
+  {
+   "w": "mehr…",
+   "start": 7.174,
+   "end": 7.61
+  },
+  {
+   "w": "doppelt",
+   "start": 7.646,
+   "end": 7.974
+  },
+  {
+   "w": "so",
+   "start": 8.083,
+   "end": 8.192
+  },
+  {
+   "w": "viel!",
+   "start": 8.228,
+   "end": 8.774
+  },
+  {
+   "w": "Pro",
+   "start": 8.883,
+   "end": 8.992
+  },
+  {
+   "w": "Dose",
+   "start": 9.065,
+   "end": 9.283
+  },
+  {
+   "w": "zahlst",
+   "start": 9.355,
+   "end": 9.574
+  },
+  {
+   "w": "du",
+   "start": 9.646,
+   "end": 9.719
+  },
+  {
+   "w": "nur",
+   "start": 9.755,
+   "end": 9.865
+  },
+  {
+   "w": "gut",
+   "start": 9.901,
+   "end": 10.083
+  },
+  {
+   "w": "drei",
+   "start": 10.155,
+   "end": 10.301
+  },
+  {
+   "w": "Euro.",
+   "start": 10.446,
+   "end": 11.028
+  },
+  {
+   "w": "Damit",
+   "start": 11.101,
+   "end": 11.246
+  },
+  {
+   "w": "hast",
+   "start": 11.295,
+   "end": 11.392
+  },
+  {
+   "w": "du",
+   "start": 11.465,
+   "end": 11.537
+  },
+  {
+   "w": "Vorrat",
+   "start": 11.574,
+   "end": 11.901
+  },
+  {
+   "w": "für",
+   "start": 12.01,
+   "end": 12.119
+  },
+  {
+   "w": "Monate.",
+   "start": 12.228,
+   "end": 12.992
+  },
+  {
+   "w": "Riecht",
+   "start": 13.016,
+   "end": 13.21
+  },
+  {
+   "w": "nach",
+   "start": 13.258,
+   "end": 13.355
+  },
+  {
+   "w": "Erdbeere,",
+   "start": 13.392,
+   "end": 13.937
+  },
+  {
+   "w": "hält",
+   "start": 14.083,
+   "end": 14.228
+  },
+  {
+   "w": "bombenfest,",
+   "start": 14.337,
+   "end": 15.028
+  },
+  {
+   "w": "und",
+   "start": 15.101,
+   "end": 15.174
+  },
+  {
+   "w": "geht",
+   "start": 15.21,
+   "end": 15.319
+  },
+  {
+   "w": "mit",
+   "start": 15.392,
+   "end": 15.465
+  },
+  {
+   "w": "Wasser",
+   "start": 15.537,
+   "end": 15.828
+  },
+  {
+   "w": "einfach",
+   "start": 15.865,
+   "end": 16.192
+  },
+  {
+   "w": "raus.",
+   "start": 16.265,
+   "end": 16.774
+  },
+  {
+   "w": "Also:",
+   "start": 16.919,
+   "end": 17.355
+  },
+  {
+   "w": "Sechserpack.",
+   "start": 17.428,
+   "end": 18.228
+  },
+  {
+   "w": "Link",
+   "start": 18.301,
+   "end": 18.446
+  },
+  {
+   "w": "ist",
+   "start": 18.519,
+   "end": 18.592
+  },
+  {
+   "w": "unten,",
+   "start": 18.665,
+   "end": 19.028
+  },
+  {
+   "w": "solange",
+   "start": 19.101,
+   "end": 19.319
+  },
+  {
+   "w": "der",
+   "start": 19.392,
+   "end": 19.465
+  },
+  {
+   "w": "Preis",
+   "start": 19.501,
+   "end": 19.683
+  },
+  {
+   "w": "noch",
+   "start": 19.755,
+   "end": 19.828
+  },
+  {
+   "w": "gilt.",
+   "start": 19.865,
+   "end": 20.337
+  }
+ ]
+}

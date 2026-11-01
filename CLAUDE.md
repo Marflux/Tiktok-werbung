@@ -49,6 +49,7 @@ Mit Marflux auf **Deutsch** sprechen, einfach und ohne Fachjargon. Er schreibt p
 npm install
 node voice.mjs [video] [--force|--reuse]   # Stimme (eine Aufnahme) -> public/voice/<video>.mp3 + src/<video>/voice.json
 npx remotion render src/index.ts RedOne renders/RedOne_Barber.mp4 --concurrency=4 --crf=18
+npx remotion render src/index.ts Vergleich renders/RedOne_Vergleich.mp4 --concurrency=4 --crf=18
 npx remotion render src/index.ts RedOne tools-cache/preview.mp4 --scale=0.5   # schnelle Vorschau
 npx remotion studio
 ```
@@ -57,7 +58,7 @@ npx remotion studio
 
 - `src/<video>/script.mjs`: Sprechtext, eine Zeile = ein Schnitt (Clip + Startsekunde + Tempo), Text oben, gelbe Wörter.
   Schnitte liegen automatisch auf dem ersten Wort jeder Zeile.
-- `src/<video>/Video.tsx`: Schnitt, Einschub-Zoom pro Schnitt, Text oben (ab Bild 0 sichtbar), Untertitel, Endkarte, Whoosh.
+- `src/Ad.tsx` (`makeAd(script, voice)`, für alle Videos gleich, in `src/Root.tsx` angemeldet): Schnitt, Einschub-Zoom pro Schnitt, Text oben (ab Bild 0 sichtbar), Untertitel, Endkarte, Whoosh.
 - `src/kit.tsx`: Schrift (Plus Jakarta Sans), TikTok-Untertitel (Wort für Wort, max ~26 Zeichen pro Pille).
 - `public/clips/c1..c6.mp4`: Marflux' Aufnahmen (Hochformat, verkleinert). Originale nicht im Repo (`clips/` ignoriert).
 - Chrome: `/opt/pw-browsers/chromium_headless_shell-*/chrome-headless-shell-linux64/` (`remotion.config.ts`).
@@ -78,9 +79,16 @@ npx remotion studio
   als gelbe Sticker), „Krasses Schnäppchen. Schnell zuschlagen, Link ist unten.“ Endkarte „6er unter 20 €“ + „Link unten 👇“.
   Erste Fassung (12,6 s, ohne Preise/Geruch) ist durch diese ersetzt.
 
+- `vergleich` → `renders/RedOne_Vergleich.mp4` (22,4 s), lenkt alles auf den **Sechserpack** (nur 1 Produktlink pro Video,
+  6er bringt mehr Provision). Hook oben „Kauf NICHT den 3er ❌“, Stimme: „Kauf bloß nicht den Dreierpack. Drei Dosen: fünfzehn
+  Euro. Sechs Dosen: unter zwanzig. Heißt: für fünf Euro mehr… doppelt so viel! Pro Dose nur gut drei Euro. Vorrat für Monate.
+  Erdbeere, bombenfest, Wasser. Also: Sechserpack. Link ist unten, solange der Preis noch gilt.“ Sticker: 3er = 15 €,
+  6er unter 20 €, +5 € = doppelt, 5 € pro Dose (durchgestrichen) → gut 3 €.
+- Gepostet: `redone` am 01.11. mit Sechserpack-Link. Höchstens 1 Video pro Tag (Erfahrung GPTGenie).
+
 ## Produkt-Infos von Marflux (01.11.)
 
-- 6er-Pack gerade **unter 20 €**, 3er-Pack **unter 10 €** (mit Coupons). Normal ca. **10 € pro Dose**.
+- 6er-Pack gerade **unter 20 €**, 3er-Pack **unter 10 €** (mit Coupons), später sagte er **3er = 15 €** (für `vergleich` benutzt). Normal ca. **10 € pro Dose**.
 - Riecht nach **Erdbeere**. Guter Halt, guter Look.
 - Marflux will typische Verkaufssprache („krasses Schnäppchen“, „schnell zuschlagen“). Übertreibungen leicht abschwächen
   („fast kein Parfüm mehr“), Preise als „gerade unter …“ (Coupons ändern sich), Statt-Preis muss echt sein.
