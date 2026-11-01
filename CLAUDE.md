@@ -1,6 +1,7 @@
 # TikTok-Affiliate-Videos: Arbeitsregeln für Claude
 
 Mit Marflux auf **Deutsch** sprechen, einfach und ohne Fachjargon. Er schreibt per Spracheingabe (Tippfehler normal).
+**Keine Tabellen** in Antworten oder Anleitungen (liest auf dem Handy). Lieber kurze Abschnitte mit fetten Überschriften.
 
 ## Wichtig
 

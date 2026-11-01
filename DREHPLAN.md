@@ -1,63 +1,79 @@
-# Drehplan Red One: Skripte mit Sekunden
+# Drehplan Red One
 
-Kein Auto (Marflux macht das nicht). Drei Videos, je ~15–17 s, Stimme ElevenLabs, Marflux filmt stumm.
+(Keine Tabellen: Marflux liest auf dem Handy, Tabellen sind dort schlecht lesbar.)
 
-## Grundregeln beim Filmen
+## Vorbereitung
 
-- Handy **hochkant**, Tageslicht (Fenster), weiße Decke oder heller Tisch als Untergrund.
-- Jeden Clip **länger filmen als das Fenster**: 1 s vorher anfangen, 1–2 s länger halten. Ich schneide das Beste raus.
-- Jeden Clip **2–3 Mal** filmen. Langsam bewegen, Kamera ruhig. Nicht reden.
-- Ein Clip = eine Handlung. Danach Aufnahme stoppen.
+- Weiße Decke oder hellen Tisch ans Fenster legen (Tageslicht).
+- Alle 9 Dosen sauber machen, Preisschilder ab.
+- Handy hochkant halten.
+- Nicht reden. Ton ist egal.
+- Jeden Clip 2 bis 3 Mal filmen. Langsam bewegen, Kamera ruhig halten.
+- Immer 1 Sekunde vorher starten und am Ende 1 bis 2 Sekunden still halten.
 
-## Video 1: „Barber“ (16 s)
+## Teil 1: Am Tisch (ca. 15 Minuten)
 
-| Sekunde | Stimme sagt | Du filmst | Clip-Länge filmen |
-|---|---|---|---|
-| 0–2 | „Mein Barber benutzt genau das hier…“ | Dose nah, Deckel aufdrehen, Dose zur Kamera kippen (Gel glänzt) | 5 s |
-| 2–4,5 | „…und lässt es sich extra bezahlen.“ | Geschlossene Dose in der Hand, langsam drehen, Logo zur Kamera | 5 s |
-| 4,5–7 | „Hält richtig stark, glänzt…“ | Ein Finger nimmt Gel raus, zwischen zwei Fingern verreiben | 5 s |
-| 7–9,5 | „…und geht mit Wasser einfach wieder raus.“ | Gel in die Haare (nur Hand + Haare, kein Gesicht) | 5 s |
-| 9,5–12,5 | „Und im Sechserpack zahlst du pro Dose fast nix.“ | Turm aus 6 Dosen bauen, Dose für Dose | 8 s |
-| 12,5–16 | „Dreier oder Sechser? Link ist unten.“ | Links 3 Dosen, rechts 6. Hand zeigt auf 3, dann auf 6 | 6 s |
+**Clip 1: Dose öffnen** (ca. 5 Sekunden)
+Eine Dose nah vor die Kamera halten. Deckel langsam abdrehen. Dose zur Kamera kippen, sodass man das rote Gel glänzen sieht.
 
-## Video 2: „3 oder 6?“ (17 s)
+**Clip 2: Dose drehen** (ca. 5 Sekunden)
+Geschlossene Dose in der Hand. Erst das Logo zur Kamera, dann langsam drehen, sodass man die Seite sieht.
 
-| Sekunde | Stimme sagt | Du filmst | Clip-Länge filmen |
-|---|---|---|---|
-| 0–2,5 | „Dreier oder Sechser… was lohnt sich?“ | Links 3, rechts 6 Dosen (von oben). Hand zeigt auf 3, dann 6 | 6 s |
-| 2,5–5 | „Das rote Wachs, das jeder Barber hat.“ | Dose aufdrehen, zur Kamera kippen | 5 s |
-| 5–8 | „Starker Halt, glänzt, geht mit Wasser raus.“ | Finger nimmt Gel, verreiben | 5 s |
-| 8–11 | „Dreier: [Preis]. Also [x] pro Dose.“ | Nur die 3 Dosen, Hand tippt jede einmal an | 5 s |
-| 11–14 | „Sechser: [Preis]. Nur [y] pro Dose.“ | Turm aus 6 Dosen bauen | 8 s |
-| 14–17 | „Ich nehm den Sechser. Link ist unten.“ | Alle 9 Dosen verstreut, Hand schiebt sie zusammen | 6 s |
+**Clip 3: Gel zwischen den Fingern** (ca. 5 Sekunden)
+Mit einem Finger etwas Gel rausnehmen. Zwischen Daumen und Zeigefinger verreiben, nah an der Kamera.
 
-## Video 3: „Vorher / Nachher“ (14 s, Bad, ohne Gesicht)
+**Clip 4: Turm bauen** (ca. 8 Sekunden)
+Von oben filmen. Sechs Dosen nacheinander aufeinander stellen.
 
-| Sekunde | Stimme sagt | Du filmst | Clip-Länge filmen |
-|---|---|---|---|
-| 0–2 | „So seh ich morgens aus…“ | Haare zerzaust, von hinten oder Handy über dem Kopf | 4 s |
-| 2–4 | „…ein bisschen davon…“ | Dose aufdrehen, Finger rein | 5 s |
-| 4–8 | „…kurz durch…“ | Gel in die Haare, stylen (darf schnell sein, ich beschleunige) | 15 s |
-| 8–11 | „…und so bleibt's bis abends.“ | Haare fertig, Kamera langsam um den Kopf | 5 s |
-| 11–14 | „Gibt's im Dreier und Sechser. Link ist unten.“ | Links 3, rechts 6 Dosen, Hand zeigt drauf | 6 s |
+**Clip 5: Drei oder sechs** (ca. 6 Sekunden)
+Links drei Dosen hinstellen, rechts sechs Dosen. Von oben filmen. Mit dem Finger erst auf die drei zeigen, dann auf die sechs.
 
-## Einkaufsliste der Clips (alles einmal filmen reicht für alle drei Videos)
+**Clip 6: Nur die drei** (ca. 5 Sekunden)
+Nur drei Dosen im Bild. Mit dem Finger jede einmal antippen.
 
-1. Dose aufdrehen + zur Kamera kippen
-2. Geschlossene Dose in der Hand drehen
-3. Finger nimmt Gel + verreiben
-4. Turm aus 6 Dosen bauen
-5. 3 links / 6 rechts, Hand zeigt drauf
-6. 3 Dosen allein, Hand tippt jede an
-7. Alle 9 verstreut, Hand schiebt zusammen
-8. Haare vorher (zerzaust)
-9. Gel in die Haare / stylen
-10. Haare nachher, langsam drumherum
+**Clip 7: Alle zusammenschieben** (ca. 6 Sekunden)
+Alle neun Dosen verstreut hinlegen. Von oben filmen. Mit beiden Händen langsam zusammenschieben.
+
+## Teil 2: Im Bad (ca. 10 Minuten, kein Gesicht im Bild)
+
+**Clip 8: Haare vorher** (ca. 4 Sekunden)
+Haare zerzaust. Handy über den Kopf halten oder von hinten filmen (Spiegel). Gesicht nicht im Bild.
+
+**Clip 9: Stylen** (ca. 15 Sekunden, darf auch länger)
+Gel in die Haare und stylen. Nur Hand und Haare im Bild. Ich spule das später schneller.
+
+**Clip 10: Haare nachher** (ca. 5 Sekunden)
+Fertige Haare. Handy langsam einmal um den Kopf bewegen. Gesicht nicht im Bild.
+
+Fertig. Alle Clips hochladen, Reihenfolge und Namen egal.
+
+## Was ich daraus mache (Sprechtexte, Entwurf)
+
+**Video 1: „Barber“, ca. 16 Sekunden**
+Clip 1: „Mein Barber benutzt genau das hier…“
+Clip 2: „…und lässt es sich extra bezahlen.“
+Clip 3: „Hält richtig stark, glänzt…“
+Clip 9: „…und geht mit Wasser einfach wieder raus.“
+Clip 4: „Und im Sechserpack zahlst du pro Dose fast nix.“
+Clip 5: „Dreier oder Sechser? Link ist unten.“
+
+**Video 2: „3 oder 6?“, ca. 17 Sekunden**
+Clip 5: „Dreier oder Sechser… was lohnt sich?“
+Clip 1: „Das rote Wachs, das jeder Barber hat.“
+Clip 3: „Starker Halt, glänzt, geht mit Wasser raus.“
+Clip 6: „Dreier: [Preis]. Also [x] pro Dose.“
+Clip 4: „Sechser: [Preis]. Nur [y] pro Dose.“
+Clip 7: „Ich nehm den Sechser. Link ist unten.“
+
+**Video 3: „Vorher / Nachher“, ca. 14 Sekunden**
+Clip 8: „So seh ich morgens aus…“
+Clip 1: „…ein bisschen davon…“
+Clip 9: „…kurz durch…“
+Clip 10: „…und so bleibt's bis abends.“
+Clip 5: „Gibt's im Dreier und Sechser. Link ist unten.“
 
 ## Offen
 
-- Preise 3er und 6er im Shop (für Video 2).
-- Stimmt „bleibt bis abends“, „starker Halt“, „glänzt“? Nur sagen, was stimmt.
-- Sprechtexte sind Entwürfe, die genauen Sekunden passe ich an die echte Stimme an.
-
-Danach: alle Clips hier hochladen, Reihenfolge und Namen egal.
+- Preise vom 3er- und 6er-Pack (für Video 2).
+- Stimmt „starker Halt“, „glänzt“, „bleibt bis abends“? Nur sagen, was stimmt.
+- Sekunden passe ich an die echte Stimme an.
