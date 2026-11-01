@@ -12,7 +12,7 @@ Mit Marflux auf **Deutsch** sprechen, einfach und ohne Fachjargon. Er schreibt p
 - Komplett KI-generierte Videos: nein (Produkt muss echt gezeigt werden, TikTok-Shop-Regeln, Vertrauen).
 - Beim Posten: „KI-generiert“ anhaken (KI-Stimme), „Werbung“/„Anzeige“ in den Text (Gratis-Muster).
 - Keine erfundenen Versprechen im Sprechtext. Preise/Eigenschaften vorher mit Marflux klären.
-- Nur filmen als Beifahrer, nie beim Fahren.
+- Kein Auto-Video (Marflux will nicht im Auto filmen).
 
 ## Produkt 1: Red One Aqua Hair Wax Red (Full Force)
 

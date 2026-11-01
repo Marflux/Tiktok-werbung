@@ -1,50 +1,63 @@
-# Drehplan Red One (ein Dreh, drei Videos)
+# Drehplan Red One: Skripte mit Sekunden
 
-## Vorher
+Kein Auto (Marflux macht das nicht). Drei Videos, je ~15–17 s, Stimme ElevenLabs, Marflux filmt stumm.
 
-- Handy **hochkant**, Kamera-App normal (1080p oder 4K, 30 fps), Linse kurz abwischen.
-- **Tageslicht** (am Fenster oder draußen), kein Deckenlicht von oben.
-- Ärmel sauber (Pulli/Hoodie, eine Farbe), Uhr oder Armband sieht gut aus.
-- Dosen sauber machen, Folie/Preisschild ab.
-- Jeden Clip **5–8 Sekunden** lang filmen, **2–3 Versuche**, Kamera ruhig, Bewegungen langsam.
-- Nicht reden, Ton ist egal (Stimme kommt danach).
+## Grundregeln beim Filmen
 
-## Ort A: weiße Decke / Bett / heller Tisch (für Video 1 und 3)
+- Handy **hochkant**, Tageslicht (Fenster), weiße Decke oder heller Tisch als Untergrund.
+- Jeden Clip **länger filmen als das Fenster**: 1 s vorher anfangen, 1–2 s länger halten. Ich schneide das Beste raus.
+- Jeden Clip **2–3 Mal** filmen. Langsam bewegen, Kamera ruhig. Nicht reden.
+- Ein Clip = eine Handlung. Danach Aufnahme stoppen.
 
-| # | Was | Wie |
-|---|---|---|
-| A1 | Alle 9 Dosen liegen verstreut | Von oben filmen, Hand schiebt sie langsam zusammen |
-| A2 | Turm bauen | Hand stellt Dose für Dose aufeinander (6 Stück) |
-| A3 | Dose aufdrehen | Nah dran, Deckel langsam abdrehen, Dose zur Kamera kippen, man sieht das rote Gel glänzen |
-| A4 | Finger rein (optional, kein Löffel) | Ein Finger nimmt etwas raus, zwischen zwei Fingern verreiben |
-| A5 | 3er und 6er nebeneinander | Zwei Gruppen: links 3, rechts 6. Hand zeigt erst auf 3, dann auf 6 |
-| A6 | Dose in der Hand drehen | Logo zur Kamera, dann langsam drehen (Seite, Deckel) |
+## Video 1: „Barber“ (16 s)
 
-## Ort B: Auto, Beifahrersitz (für Video 2) – nur als Beifahrer!
+| Sekunde | Stimme sagt | Du filmst | Clip-Länge filmen |
+|---|---|---|---|
+| 0–2 | „Mein Barber benutzt genau das hier…“ | Dose nah, Deckel aufdrehen, Dose zur Kamera kippen (Gel glänzt) | 5 s |
+| 2–4,5 | „…und lässt es sich extra bezahlen.“ | Geschlossene Dose in der Hand, langsam drehen, Logo zur Kamera | 5 s |
+| 4,5–7 | „Hält richtig stark, glänzt…“ | Ein Finger nimmt Gel raus, zwischen zwei Fingern verreiben | 5 s |
+| 7–9,5 | „…und geht mit Wasser einfach wieder raus.“ | Gel in die Haare (nur Hand + Haare, kein Gesicht) | 5 s |
+| 9,5–12,5 | „Und im Sechserpack zahlst du pro Dose fast nix.“ | Turm aus 6 Dosen bauen, Dose für Dose | 8 s |
+| 12,5–16 | „Dreier oder Sechser? Link ist unten.“ | Links 3 Dosen, rechts 6. Hand zeigt auf 3, dann auf 6 | 6 s |
 
-| # | Was | Wie |
-|---|---|---|
-| B1 | Dosen im Ablagefach / auf dem Armaturenbrett | Erst die Dosen, dann Kamera hoch, Straße draußen |
-| B2 | Dose in der Hand drehen | Wie im @sedindeals-Video, Straße im Hintergrund |
-| B3 | Dose aufmachen | Deckel ab, kurz zur Kamera halten |
+## Video 2: „3 oder 6?“ (17 s)
 
-## Ort C: Bad / Spiegel (Bonus, ohne Gesicht)
+| Sekunde | Stimme sagt | Du filmst | Clip-Länge filmen |
+|---|---|---|---|
+| 0–2,5 | „Dreier oder Sechser… was lohnt sich?“ | Links 3, rechts 6 Dosen (von oben). Hand zeigt auf 3, dann 6 | 6 s |
+| 2,5–5 | „Das rote Wachs, das jeder Barber hat.“ | Dose aufdrehen, zur Kamera kippen | 5 s |
+| 5–8 | „Starker Halt, glänzt, geht mit Wasser raus.“ | Finger nimmt Gel, verreiben | 5 s |
+| 8–11 | „Dreier: [Preis]. Also [x] pro Dose.“ | Nur die 3 Dosen, Hand tippt jede einmal an | 5 s |
+| 11–14 | „Sechser: [Preis]. Nur [y] pro Dose.“ | Turm aus 6 Dosen bauen | 8 s |
+| 14–17 | „Ich nehm den Sechser. Link ist unten.“ | Alle 9 Dosen verstreut, Hand schiebt sie zusammen | 6 s |
 
-| # | Was | Wie |
-|---|---|---|
-| C1 | Haare vorher | Von hinten oder Kamera über dem Kopf, zerzaust |
-| C2 | Gel in die Haare | Nur Hand + Haare im Bild |
-| C3 | Haare nachher | Langsam um den Kopf, Gesicht abgeschnitten |
+## Video 3: „Vorher / Nachher“ (14 s, Bad, ohne Gesicht)
 
-## Die drei Videos (je ~15–18 s, Stimme ElevenLabs)
+| Sekunde | Stimme sagt | Du filmst | Clip-Länge filmen |
+|---|---|---|---|
+| 0–2 | „So seh ich morgens aus…“ | Haare zerzaust, von hinten oder Handy über dem Kopf | 4 s |
+| 2–4 | „…ein bisschen davon…“ | Dose aufdrehen, Finger rein | 5 s |
+| 4–8 | „…kurz durch…“ | Gel in die Haare, stylen (darf schnell sein, ich beschleunige) | 15 s |
+| 8–11 | „…und so bleibt's bis abends.“ | Haare fertig, Kamera langsam um den Kopf | 5 s |
+| 11–14 | „Gibt's im Dreier und Sechser. Link ist unten.“ | Links 3, rechts 6 Dosen, Hand zeigt drauf | 6 s |
 
-1. **„Barber“**: A3 als erstes Bild. Stimme etwa: „Mein Barber hat genau das hier… nur dass er extra kassiert.“
-   Dann A6, A4, (C2/C3), A1, A5. Schluss: „Dreier oder Sechser… Link ist unten.“
-2. **„Auto“**: B2 als erstes Bild, alles im Auto. Lockerer Ton, z. B. „Hab immer eins im Auto. Hält den ganzen Tag.“
-3. **„3er oder 6er?“**: A5 als erstes Bild, groß „3 oder 6?“. Preis pro Dose ausrechnen, Turm (A2) beim Sechser.
+## Einkaufsliste der Clips (alles einmal filmen reicht für alle drei Videos)
 
-Texte sind Entwürfe. Vor dem Posten mit Marflux prüfen (Preise, was stimmt).
+1. Dose aufdrehen + zur Kamera kippen
+2. Geschlossene Dose in der Hand drehen
+3. Finger nimmt Gel + verreiben
+4. Turm aus 6 Dosen bauen
+5. 3 links / 6 rechts, Hand zeigt drauf
+6. 3 Dosen allein, Hand tippt jede an
+7. Alle 9 verstreut, Hand schiebt zusammen
+8. Haare vorher (zerzaust)
+9. Gel in die Haare / stylen
+10. Haare nachher, langsam drumherum
 
-## Danach
+## Offen
 
-Alle Clips hier hochladen (Reihenfolge egal, Namen egal). Dazu schreiben: Preise vom 3er und 6er im Shop.
+- Preise 3er und 6er im Shop (für Video 2).
+- Stimmt „bleibt bis abends“, „starker Halt“, „glänzt“? Nur sagen, was stimmt.
+- Sprechtexte sind Entwürfe, die genauen Sekunden passe ich an die echte Stimme an.
+
+Danach: alle Clips hier hochladen, Reihenfolge und Namen egal.
