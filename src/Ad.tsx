@@ -2,7 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Audio, Easing, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Caption, SANS, type Word} from './kit';
 
-type Line = {say: string; clip: string; from: number; rate?: number; badge?: {text: string; strike?: boolean; then?: string}; note?: string; flash?: boolean; badgeY?: number};
+type Line = {say: string; clip: string; from: number; rate?: number; badge?: {text: string; strike?: boolean; then?: string}; note?: string; cover?: boolean; flash?: boolean; badgeY?: number};
 type Script = {MUSIC?: {file: string; volume: number}; LINES: Line[]; TOP: string; HIGHLIGHT: string[]; TAIL: number; END: {big: string; small: string}; VOICE_FILE: string};
 
 const FPS = 30;
@@ -121,11 +121,11 @@ const Badge: React.FC<{text: string; strike?: boolean; then?: string; len: numbe
 };
 
 /** Kleiner Hinweis unten (z. B. wessen Ergebnis das ist). */
-const Note: React.FC<{text: string}> = ({text}) => (
+const Note: React.FC<{text?: string}> = ({text}) => (
   <AbsoluteFill style={{alignItems: 'center'}}>
     {/* verwischt die eingebrannten Untertitel des fremden Clips */}
-    <div style={{position: 'absolute', top: 1110, left: 0, right: 0, height: 380, backdropFilter: 'blur(26px)', WebkitBackdropFilter: 'blur(26px)', background: 'rgba(240,240,240,0.35)'}} />
-    <div
+    <div style={{position: 'absolute', top: 1110, left: 0, right: 0, height: 380, backdropFilter: 'blur(44px)', WebkitBackdropFilter: 'blur(44px)', background: 'rgba(238,238,238,0.55)'}} />
+    {text && <div
       style={{
         position: 'absolute',
         top: 1340,
@@ -141,7 +141,7 @@ const Note: React.FC<{text: string}> = ({text}) => (
       }}
     >
       {text}
-    </div>
+    </div>}
   </AbsoluteFill>
 );
 
@@ -262,7 +262,7 @@ export const makeAd = (S: Script, data: {words: {w: string; start: number; end: 
         );
       })}
       {LINES.map((l, i) => {
-      if (!l.note) return null;
+      if (!l.note && !l.cover) return null;
       const to = i + 1 < LINES.length ? cuts[i + 1] : frames;
       return (
         <Sequence key={'n' + i} from={cuts[i]} durationInFrames={to - cuts[i]}>
@@ -277,7 +277,7 @@ export const makeAd = (S: Script, data: {words: {w: string; start: number; end: 
         </Sequence>
       ) : null,
     )}
-    <TopText text={TOP} hide={LINES.map((l, i) => (l.note ? [cuts[i], i + 1 < LINES.length ? cuts[i + 1] : frames] : null)).filter((x): x is [number, number] => !!x)} />
+    <TopText text={TOP} hide={LINES.map((l, i) => (l.note || l.cover ? [cuts[i], i + 1 < LINES.length ? cuts[i + 1] : frames] : null)).filter((x): x is [number, number] => !!x)} />
       {chunks.map((ws, i) => {
         const from = Math.round(ws[0].start * FPS);
         const to = i + 1 < chunks.length ? Math.round(chunks[i + 1][0].start * FPS) : endCard;

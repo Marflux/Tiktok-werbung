@@ -93,7 +93,7 @@ npx remotion studio
 - `drdent` → `renders/DrDent_Strips.mp4` (~17 s), **Produkt 2: Dr. Dent Whitening Strips** (42 Streifen, ohne Peroxid, vegan,
   30 Min). d1 = Marflux' Aufnahme vom 05.11. (200 s: Packung 17–30 s, Öffnen 48 s, Beutel 132 s, Streifen 146–156 s,
   Finger hoch 192 s, Farbskala-Karte ~70–90 s). d2 = Vorher/Nachher-Clip **von Marflux' Kollegen** (laut Marflux mit Erlaubnis,
-  von TikTok geladen): immer mit Hinweis „Ergebnis von meinem Kollegen“, eingebrannte Untertitel werden verwischt, Text oben
+  von TikTok geladen): Hinweis „Ergebnis von meinem Kollegen“ schreibt Marflux in die Beschreibung (im Bild nervte es ihn, `cover: true` = nur verwischen), eingebrannte Untertitel werden verwischt, Text oben
   ausgeblendet. Nie als Marflux' eigenes Ergebnis ausgeben. Preis noch unbekannt.
   Fassung 05.11. (19,4 s): Start mit echtem Folie-Abziehen (d1 32,9 s), Vorher/Nachher länger (~4 s, Zeitlupe 0,7–0,8).
   Abgelehnt: Clip eines Zahn-Creators („Dental Digest“, kein Kollege), der im Video sagt, das Weiß sei nicht echt und
