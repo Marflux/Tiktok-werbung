@@ -92,6 +92,9 @@ npx remotion studio
   Finger hoch 192 s, Farbskala-Karte ~70–90 s). d2 = Vorher/Nachher-Clip **von Marflux' Kollegen** (laut Marflux mit Erlaubnis,
   von TikTok geladen): immer mit Hinweis „Ergebnis von meinem Kollegen“, eingebrannte Untertitel werden verwischt, Text oben
   ausgeblendet. Nie als Marflux' eigenes Ergebnis ausgeben. Preis noch unbekannt.
+  Fassung 05.11. (19,4 s): Start mit echtem Folie-Abziehen (d1 32,9 s), Vorher/Nachher länger (~4 s, Zeitlupe 0,7–0,8).
+  Abgelehnt: Clip eines Zahn-Creators („Dental Digest“, kein Kollege), der im Video sagt, das Weiß sei nicht echt und
+  verblasse schnell. Den als Beweis zu zeigen wäre irreführend.
 - Videos aus Google Drive: `drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t` (Host ist freigegeben).
 
 ## Produkt-Infos von Marflux (01.11.)

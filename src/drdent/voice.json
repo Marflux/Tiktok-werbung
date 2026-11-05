@@ -1,5 +1,5 @@
 {
- "fingerprint": "{\"full\":\"[excited] Gelbe Zähne? Dann pass auf. Diese lila Streifen hier… zweiundvierzig Stück, ohne Peroxid, und vegan. Beutel auf, Streifen raus, draufkleben, dreißig Minuten warten… und dann? Vorher… nachher! Krass, oder? Link ist unten, probier’s selbst.\",\"VOICE\":{\"id\":\"K5ZVtkkBnuPY6YqXs70E\",\"model\":\"eleven_v4\",\"tempo\":1.1,\"seed\":5,\"settings\":{\"stability\":0.3},\"post\":\"highpass=f=70\"}}",
+ "fingerprint": "{\"full\":\"[excited] Gelbe Zähne? Dann pass auf. Diese lila Streifen hier… zweiundvierzig Stück, ohne Peroxid, und vegan. Beutel auf, Streifen raus, draufkleben, dreißig Minuten warten… und dann? Vorher… und nachher! Schau dir den Unterschied an… krass, oder? Link ist unten, probier’s selbst.\",\"VOICE\":{\"id\":\"K5ZVtkkBnuPY6YqXs70E\",\"model\":\"eleven_v4\",\"tempo\":1.1,\"seed\":5,\"settings\":{\"stability\":0.3},\"post\":\"highpass=f=70\"}}",
  "words": [
   {
    "w": "Gelbe",
@@ -8,168 +8,198 @@
   },
   {
    "w": "Zähne?",
-   "start": 0.4,
-   "end": 0.945
+   "start": 0.473,
+   "end": 1.018
   },
   {
    "w": "Dann",
-   "start": 1.127,
-   "end": 1.273
+   "start": 1.2,
+   "end": 1.345
   },
   {
    "w": "pass",
-   "start": 1.382,
-   "end": 1.491
+   "start": 1.418,
+   "end": 1.636
   },
   {
    "w": "auf.",
-   "start": 1.564,
-   "end": 1.964
+   "start": 1.782,
+   "end": 2.109
   },
   {
    "w": "Diese",
-   "start": 2.145,
-   "end": 2.364
+   "start": 2.291,
+   "end": 2.509
   },
   {
    "w": "lila",
-   "start": 2.436,
-   "end": 2.655
+   "start": 2.582,
+   "end": 2.8
   },
   {
    "w": "Streifen",
-   "start": 2.691,
-   "end": 3.018
+   "start": 2.836,
+   "end": 3.164
   },
   {
    "w": "hier…",
-   "start": 3.091,
-   "end": 3.418
+   "start": 3.236,
+   "end": 3.564
   },
   {
    "w": "zweiundvierzig",
-   "start": 3.6,
-   "end": 4.182
+   "start": 3.745,
+   "end": 4.327
   },
   {
    "w": "Stück,",
-   "start": 4.255,
-   "end": 4.618
-  },
-  {
-   "w": "ohne",
-   "start": 4.691,
+   "start": 4.4,
    "end": 4.836
   },
   {
-   "w": "Peroxid,",
-   "start": 4.909,
-   "end": 5.564
+   "w": "ohne",
+   "start": 4.873,
+   "end": 4.982
   },
   {
-   "w": "und",
-   "start": 5.636,
+   "w": "Peroxid,",
+   "start": 5.055,
    "end": 5.782
   },
   {
-   "w": "vegan.",
+   "w": "und",
    "start": 5.855,
-   "end": 6.291
+   "end": 5.927
+  },
+  {
+   "w": "vegan.",
+   "start": 6,
+   "end": 6.436
   },
   {
    "w": "Beutel",
-   "start": 6.655,
-   "end": 6.945
+   "start": 6.8,
+   "end": 7.091
   },
   {
    "w": "auf,",
-   "start": 7.091,
-   "end": 7.382
+   "start": 7.236,
+   "end": 7.455
   },
   {
    "w": "Streifen",
-   "start": 7.455,
-   "end": 7.745
+   "start": 7.527,
+   "end": 7.891
   },
   {
    "w": "raus,",
-   "start": 7.818,
-   "end": 8.255
+   "start": 7.964,
+   "end": 8.4
   },
   {
    "w": "draufkleben,",
-   "start": 8.327,
-   "end": 9.055
+   "start": 8.473,
+   "end": 9.2
   },
   {
    "w": "dreißig",
-   "start": 9.127,
-   "end": 9.345
+   "start": 9.273,
+   "end": 9.527
   },
   {
    "w": "Minuten",
-   "start": 9.418,
-   "end": 9.709
+   "start": 9.564,
+   "end": 9.855
   },
   {
    "w": "warten…",
-   "start": 9.745,
-   "end": 10.364
+   "start": 9.927,
+   "end": 10.582
   },
   {
    "w": "und",
-   "start": 10.436,
-   "end": 10.509
+   "start": 10.655,
+   "end": 10.727
   },
   {
    "w": "dann?",
-   "start": 10.545,
-   "end": 10.982
+   "start": 10.764,
+   "end": 11.236
   },
   {
    "w": "Vorher…",
-   "start": 11.236,
-   "end": 11.964
+   "start": 11.455,
+   "end": 12.182
+  },
+  {
+   "w": "und",
+   "start": 12.291,
+   "end": 12.4
   },
   {
    "w": "nachher!",
-   "start": 12.036,
-   "end": 12.473
+   "start": 12.473,
+   "end": 12.909
   },
   {
-   "w": "Krass,",
-   "start": 12.764,
-   "end": 13.091
+   "w": "Schau",
+   "start": 13.273,
+   "end": 13.418
+  },
+  {
+   "w": "dir",
+   "start": 13.491,
+   "end": 13.564
+  },
+  {
+   "w": "den",
+   "start": 13.636,
+   "end": 13.709
+  },
+  {
+   "w": "Unterschied",
+   "start": 13.782,
+   "end": 14.145
+  },
+  {
+   "w": "an…",
+   "start": 14.255,
+   "end": 14.655
+  },
+  {
+   "w": "krass,",
+   "start": 14.727,
+   "end": 15.018
   },
   {
    "w": "oder?",
-   "start": 13.127,
-   "end": 13.527
+   "start": 15.127,
+   "end": 15.309
   },
   {
    "w": "Link",
-   "start": 13.709,
-   "end": 13.855
+   "start": 15.673,
+   "end": 15.818
   },
   {
    "w": "ist",
-   "start": 13.927,
-   "end": 14
+   "start": 15.891,
+   "end": 15.964
   },
   {
    "w": "unten,",
-   "start": 14.073,
-   "end": 14.436
+   "start": 16.036,
+   "end": 16.4
   },
   {
    "w": "probier’s",
-   "start": 14.509,
-   "end": 14.727
+   "start": 16.473,
+   "end": 16.691
   },
   {
    "w": "selbst.",
-   "start": 14.8,
-   "end": 15.309
+   "start": 16.8,
+   "end": 17.345
   }
  ]
 }
