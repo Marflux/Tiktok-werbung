@@ -3,6 +3,9 @@
 // Keine englischen Wörter im Sprechtext. Preis noch unbekannt, deshalb keiner im Text.
 export const VOICE = {id: 'K5ZVtkkBnuPY6YqXs70E', model: 'eleven_v4', tempo: 1.1, seed: 5, settings: {stability: 0.3}, post: 'highpass=f=70'};
 
+// Song von Marflux (05.11.), ab Sekunde 8,447 geschnitten: der Beat setzt nach dem ruhigen Mittelteil genau beim Blitz zu „Vorher“ ein.
+export const MUSIC = {file: 'music/drdent.mp3', volume: 0.3};
+
 export const LINES = [
   {say: '[excited] Gelbe Zähne? Dann pass auf.', clip: 'd1', from: 32.9},
   {say: 'Diese lila Streifen hier…', clip: 'd1', from: 48.6},

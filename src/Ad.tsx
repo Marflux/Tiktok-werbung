@@ -3,7 +3,7 @@ import {AbsoluteFill, Audio, Easing, OffthreadVideo, Sequence, interpolate, spri
 import {Caption, SANS, type Word} from './kit';
 
 type Line = {say: string; clip: string; from: number; rate?: number; badge?: {text: string; strike?: boolean; then?: string}; note?: string; flash?: boolean; badgeY?: number};
-type Script = {LINES: Line[]; TOP: string; HIGHLIGHT: string[]; TAIL: number; END: {big: string; small: string}; VOICE_FILE: string};
+type Script = {MUSIC?: {file: string; volume: number}; LINES: Line[]; TOP: string; HIGHLIGHT: string[]; TAIL: number; END: {big: string; small: string}; VOICE_FILE: string};
 
 const FPS = 30;
 /** Ein Clip: kurzer Einschub-Zoom beim Schnitt, dann ganz langsames Reinfahren. */
@@ -197,7 +197,7 @@ const EndCard: React.FC<{big: string; small: string}> = ({big, small}) => {
 
 /** Baut ein Video aus Skript (script.mjs) und Wortzeiten der Stimme (voice.json). */
 export const makeAd = (S: Script, data: {words: {w: string; start: number; end: number}[]}) => {
-  const {LINES, TOP, HIGHLIGHT, TAIL, END, VOICE_FILE} = S;
+  const {LINES, TOP, HIGHLIGHT, TAIL, END, VOICE_FILE, MUSIC} = S;
   const words = data.words as {w: string; start: number; end: number}[];
   // Welche Wörter gehören zu welcher Zeile (gleiche Reihenfolge wie im Skript).
   const lineWords: (typeof words)[] = [];
@@ -288,6 +288,13 @@ export const makeAd = (S: Script, data: {words: {w: string; start: number; end: 
         <EndCard big={END.big} small={END.small} />
       </Sequence>
       <Audio src={staticFile(VOICE_FILE)} />
+    {MUSIC && (
+      <Audio
+        src={staticFile(MUSIC.file)}
+        // leise unter der Stimme, am Ende ausblenden
+        volume={(f) => MUSIC.volume * interpolate(f, [frames - 25, frames - 1], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
+      />
+    )}
       {cuts.slice(1).map((c, i) => (
         <Sequence key={i} from={c - 2}>
           <Audio src={staticFile(i % 2 ? 'sfx/whoosh.wav' : 'sfx/whoosh2.wav')} volume={0.22} />

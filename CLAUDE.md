@@ -15,7 +15,10 @@ Mit Marflux auf **Deutsch** sprechen, einfach und ohne Fachjargon. Er schreibt p
 - Keine erfundenen Versprechen im Sprechtext. Preise/Eigenschaften vorher mit Marflux klären.
 - Kein Auto-Video (Marflux will nicht im Auto filmen).
 - **Keine Haare filmen** (Marflux, ausdrücklich). Nur Hände + Dosen auf dem Tisch/der Decke.
-- Song: keiner im Repo. Fassung ohne Musik liefern, Marflux legt in TikTok einen Trend-Sound leise drunter (oder schickt einen Song).
+- Song: Marflux legt meist in TikTok einen Trend-Sound drunter. Schickt er einen Song, kommt er als `MUSIC` ins Skript
+  (`public/music/<video>.mp3`, schon passend geschnitten, Lautstärke ~0.3 = ca. 13 dB unter der Stimme, Ausblenden am Ende).
+  `drdent`: Song vom 05.11. (62 s, Beat 2–10,5 s, ruhig 10,5–19,9 s, Beat wieder ab 19,88 s), ab 8,447 s geschnitten,
+  damit der Beat genau beim Blitz zu „Vorher“ einsetzt.
 - Der ElevenLabs-Schlüssel in der Umgebung ist ein **Starter**-Konto (nicht Pro): kommerziell erlaubt, aber nur
   `mp3_44100_128` (192 kbps braucht Creator).
 
