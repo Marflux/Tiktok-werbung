@@ -5,10 +5,13 @@ import * as redone from './redone/script.mjs';
 import redoneVoice from './redone/voice.json';
 import * as vergleich from './vergleich/script.mjs';
 import vergleichVoice from './vergleich/voice.json';
+import * as drdent from './drdent/script.mjs';
+import drdentVoice from './drdent/voice.json';
 
 const ads = [
   {id: 'RedOne', ...makeAd(redone as never, redoneVoice)},
   {id: 'Vergleich', ...makeAd(vergleich as never, vergleichVoice)},
+  {id: 'DrDent', ...makeAd(drdent as never, drdentVoice)},
 ];
 
 export const Root: React.FC = () => (

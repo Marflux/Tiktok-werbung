@@ -2,7 +2,7 @@ import React from 'react';
 import {AbsoluteFill, Audio, Easing, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {Caption, SANS, type Word} from './kit';
 
-type Line = {say: string; clip: string; from: number; rate?: number; badge?: {text: string; strike?: boolean; then?: string}};
+type Line = {say: string; clip: string; from: number; rate?: number; badge?: {text: string; strike?: boolean; then?: string}; note?: string; flash?: boolean; badgeY?: number};
 type Script = {LINES: Line[]; TOP: string; HIGHLIGHT: string[]; TAIL: number; END: {big: string; small: string}; VOICE_FILE: string};
 
 const FPS = 30;
@@ -19,10 +19,12 @@ const Shot: React.FC<{clip: string; from: number; rate: number; len: number}> = 
 };
 
 /** Großer Text oben, steht das ganze Video. */
-const TopText: React.FC<{text: string}> = ({text}) => {
+const TopText: React.FC<{text: string; hide: [number, number][]}> = ({text, hide}) => {
   const f = useCurrentFrame();
   // Ab Bild 0 voll sichtbar (Leute entscheiden in der ersten Sekunde), nur ein kleiner Puls.
   const s = 1 + 0.06 * Math.max(0, 1 - f / 8);
+  // Während Zahn-Szenen ausblenden (sonst liegt der Text über dem Mund).
+  const hidden = hide.some(([a, b]) => f >= a && f < b);
   return (
     <div
       style={{
@@ -40,6 +42,7 @@ const TopText: React.FC<{text: string}> = ({text}) => {
         textShadow: '0 0 4px #000, 0 4px 18px rgba(0,0,0,0.85), 0 0 2px #000',
         transform: `scale(${s})`,
         whiteSpace: 'pre-line',
+        opacity: hidden ? 0 : 1,
       }}
     >
       {text}
@@ -48,7 +51,7 @@ const TopText: React.FC<{text: string}> = ({text}) => {
 };
 
 /** Sticker in der Bildmitte oben (Preis, Geruch). strike = wird rot durchgestrichen. */
-const Badge: React.FC<{text: string; strike?: boolean; then?: string; len: number}> = ({text, strike, then, len}) => {
+const Badge: React.FC<{text: string; strike?: boolean; then?: string; len: number; y?: number}> = ({text, strike, then, len, y = 470}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const a = spring({frame: f, fps, config: {damping: 10, stiffness: 260}});
@@ -60,7 +63,7 @@ const Badge: React.FC<{text: string; strike?: boolean; then?: string; len: numbe
       <div
         style={{
           position: 'absolute',
-          top: 470,
+          top: y,
           background: strike ? '#111' : '#FFD23F',
           color: strike ? '#fff' : '#111',
           fontFamily: SANS,
@@ -115,6 +118,37 @@ const Badge: React.FC<{text: string; strike?: boolean; then?: string; len: numbe
       )}
     </AbsoluteFill>
   );
+};
+
+/** Kleiner Hinweis unten (z. B. wessen Ergebnis das ist). */
+const Note: React.FC<{text: string}> = ({text}) => (
+  <AbsoluteFill style={{alignItems: 'center'}}>
+    {/* verwischt die eingebrannten Untertitel des fremden Clips */}
+    <div style={{position: 'absolute', top: 1110, left: 0, right: 0, height: 380, backdropFilter: 'blur(26px)', WebkitBackdropFilter: 'blur(26px)', background: 'rgba(240,240,240,0.35)'}} />
+    <div
+      style={{
+        position: 'absolute',
+        top: 1340,
+        background: 'rgba(255,255,255,0.95)',
+        color: '#333',
+        fontFamily: SANS,
+        fontWeight: 700,
+        fontSize: 44,
+        padding: '18px 40px',
+        borderRadius: 999,
+        boxShadow: '0 10px 28px rgba(0,0,0,0.3)',
+        whiteSpace: 'nowrap',
+      }}
+    >
+      {text}
+    </div>
+  </AbsoluteFill>
+);
+
+/** Kurzer weißer Blitz beim Schnitt. */
+const Flash: React.FC = () => {
+  const f = useCurrentFrame();
+  return <AbsoluteFill style={{background: '#fff', opacity: interpolate(f, [0, 5], [0.85, 0], {extrapolateRight: 'clamp'})}} />;
 };
 
 /** Endkarte: „3er oder 6er?“ + Hinweis auf den Link. */
@@ -223,11 +257,27 @@ export const makeAd = (S: Script, data: {words: {w: string; start: number; end: 
         const to = i + 1 < LINES.length ? cuts[i + 1] : endCard;
         return (
           <Sequence key={'b' + i} from={from} durationInFrames={to - from}>
-            <Badge text={l.badge.text} strike={l.badge.strike} then={l.badge.then} len={to - from} />
+            <Badge text={l.badge.text} strike={l.badge.strike} then={l.badge.then} len={to - from} y={l.badgeY} />
           </Sequence>
         );
       })}
-      <TopText text={TOP} />
+      {LINES.map((l, i) => {
+      if (!l.note) return null;
+      const to = i + 1 < LINES.length ? cuts[i + 1] : frames;
+      return (
+        <Sequence key={'n' + i} from={cuts[i]} durationInFrames={to - cuts[i]}>
+          <Note text={l.note} />
+        </Sequence>
+      );
+    })}
+    {LINES.map((l, i) =>
+      l.flash ? (
+        <Sequence key={'f' + i} from={cuts[i]} durationInFrames={6}>
+          <Flash />
+        </Sequence>
+      ) : null,
+    )}
+    <TopText text={TOP} hide={LINES.map((l, i) => (l.note ? [cuts[i], i + 1 < LINES.length ? cuts[i + 1] : frames] : null)).filter((x): x is [number, number] => !!x)} />
       {chunks.map((ws, i) => {
         const from = Math.round(ws[0].start * FPS);
         const to = i + 1 < chunks.length ? Math.round(chunks[i + 1][0].start * FPS) : endCard;

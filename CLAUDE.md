@@ -50,6 +50,7 @@ npm install
 node voice.mjs [video] [--force|--reuse]   # Stimme (eine Aufnahme) -> public/voice/<video>.mp3 + src/<video>/voice.json
 npx remotion render src/index.ts RedOne renders/RedOne_Barber.mp4 --concurrency=4 --crf=18
 npx remotion render src/index.ts Vergleich renders/RedOne_Vergleich.mp4 --concurrency=4 --crf=18
+npx remotion render src/index.ts DrDent renders/DrDent_Strips.mp4 --concurrency=4 --crf=18
 npx remotion render src/index.ts RedOne tools-cache/preview.mp4 --scale=0.5   # schnelle Vorschau
 npx remotion studio
 ```
@@ -85,6 +86,13 @@ npx remotion studio
   Erdbeere, bombenfest, Wasser. Also: Sechserpack. Link ist unten, solange der Preis noch gilt.“ Sticker: 3er = 15 €,
   6er unter 20 €, +5 € = doppelt, 5 € pro Dose (durchgestrichen) → gut 3 €.
 - Gepostet: `redone` am 01.11. mit Sechserpack-Link. Höchstens 1 Video pro Tag (Erfahrung GPTGenie).
+
+- `drdent` → `renders/DrDent_Strips.mp4` (~17 s), **Produkt 2: Dr. Dent Whitening Strips** (42 Streifen, ohne Peroxid, vegan,
+  30 Min). d1 = Marflux' Aufnahme vom 05.11. (200 s: Packung 17–30 s, Öffnen 48 s, Beutel 132 s, Streifen 146–156 s,
+  Finger hoch 192 s, Farbskala-Karte ~70–90 s). d2 = Vorher/Nachher-Clip **von Marflux' Kollegen** (laut Marflux mit Erlaubnis,
+  von TikTok geladen): immer mit Hinweis „Ergebnis von meinem Kollegen“, eingebrannte Untertitel werden verwischt, Text oben
+  ausgeblendet. Nie als Marflux' eigenes Ergebnis ausgeben. Preis noch unbekannt.
+- Videos aus Google Drive: `drive.usercontent.google.com/download?id=<ID>&export=download&confirm=t` (Host ist freigegeben).
 
 ## Produkt-Infos von Marflux (01.11.)
 
